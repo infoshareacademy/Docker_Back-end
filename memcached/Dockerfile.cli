@@ -1,0 +1,5 @@
+FROM debian:buster
+ENTRYPOINT ["telnet"]
+RUN apt-get update && \
+    apt-get install -y telnet
+

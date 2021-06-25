@@ -1,0 +1,952 @@
+[
+    {
+        "sha256:27250c047e77590edc14dbc9b30e21ca45ed91c806415afc9ac24549dc2b8a3d": {
+            "localhost:5000/vuln-image:1.2.3": [
+                {
+                    "detail": {
+                        "policy": {
+                            "blacklisted_images": [],
+                            "comment": "Default bundle",
+                            "id": "2c53a13c-1765-11e8-82ef-23527761d060",
+                            "mappings": [
+                                {
+                                    "id": "c4f9bf74-dc38-4ddf-b5cf-00e9c0074611",
+                                    "image": {
+                                        "type": "tag",
+                                        "value": "*"
+                                    },
+                                    "name": "default",
+                                    "policy_id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                    "registry": "*",
+                                    "repository": "*",
+                                    "whitelist_ids": [
+                                        "37fd763e-1765-11e8-add4-3b16c029ac5c"
+                                    ]
+                                }
+                            ],
+                            "name": "Default bundle",
+                            "policies": [
+                                {
+                                    "comment": "System default policy",
+                                    "id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                    "name": "DefaultPolicy",
+                                    "rules": [
+                                        {
+                                            "action": "STOP",
+                                            "gate": "dockerfile",
+                                            "id": "ce7b8000-829b-4c27-8122-69cd59018400",
+                                            "params": [
+                                                {
+                                                    "name": "ports",
+                                                    "value": "22"
+                                                },
+                                                {
+                                                    "name": "type",
+                                                    "value": "blacklist"
+                                                }
+                                            ],
+                                            "trigger": "exposed_ports"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "dockerfile",
+                                            "id": "312d9e41-1c05-4e2f-ad89-b7d34b0855bb",
+                                            "params": [
+                                                {
+                                                    "name": "instruction",
+                                                    "value": "HEALTHCHECK"
+                                                },
+                                                {
+                                                    "name": "check",
+                                                    "value": "not_exists"
+                                                }
+                                            ],
+                                            "trigger": "instruction"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "vulnerabilities",
+                                            "id": "6b5c14e7-a6f7-48cc-99d2-959273a2c6fa",
+                                            "params": [
+                                                {
+                                                    "name": "max_days_since_sync",
+                                                    "value": "2"
+                                                }
+                                            ],
+                                            "trigger": "stale_feed_data"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "vulnerabilities",
+                                            "id": "3e79ea94-18c4-4d26-9e29-3b9172a62c2e",
+                                            "params": [],
+                                            "trigger": "vulnerability_data_unavailable"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "vulnerabilities",
+                                            "id": "6063fdde-b1c5-46af-973a-915739451ac4",
+                                            "params": [
+                                                {
+                                                    "name": "package_type",
+                                                    "value": "all"
+                                                },
+                                                {
+                                                    "name": "severity_comparison",
+                                                    "value": "="
+                                                },
+                                                {
+                                                    "name": "severity",
+                                                    "value": "medium"
+                                                }
+                                            ],
+                                            "trigger": "package"
+                                        },
+                                        {
+                                            "action": "STOP",
+                                            "gate": "vulnerabilities",
+                                            "id": "b30e8abc-444f-45b1-8a37-55be1b8c8bb5",
+                                            "params": [
+                                                {
+                                                    "name": "package_type",
+                                                    "value": "all"
+                                                },
+                                                {
+                                                    "name": "severity_comparison",
+                                                    "value": ">"
+                                                },
+                                                {
+                                                    "name": "severity",
+                                                    "value": "medium"
+                                                }
+                                            ],
+                                            "trigger": "package"
+                                        }
+                                    ],
+                                    "version": "1_0"
+                                }
+                            ],
+                            "version": "1_0",
+                            "whitelisted_images": [],
+                            "whitelists": [
+                                {
+                                    "comment": "Default global whitelist",
+                                    "id": "37fd763e-1765-11e8-add4-3b16c029ac5c",
+                                    "items": [],
+                                    "name": "Global Whitelist",
+                                    "version": "1_0"
+                                }
+                            ]
+                        },
+                        "result": {
+                            "bundle": {
+                                "blacklisted_images": [],
+                                "comment": "Default bundle",
+                                "id": "2c53a13c-1765-11e8-82ef-23527761d060",
+                                "mappings": [
+                                    {
+                                        "id": "c4f9bf74-dc38-4ddf-b5cf-00e9c0074611",
+                                        "image": {
+                                            "type": "tag",
+                                            "value": "*"
+                                        },
+                                        "name": "default",
+                                        "policy_id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                        "registry": "*",
+                                        "repository": "*",
+                                        "whitelist_ids": [
+                                            "37fd763e-1765-11e8-add4-3b16c029ac5c"
+                                        ]
+                                    }
+                                ],
+                                "name": "Default bundle",
+                                "policies": [
+                                    {
+                                        "comment": "System default policy",
+                                        "id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                        "name": "DefaultPolicy",
+                                        "rules": [
+                                            {
+                                                "action": "STOP",
+                                                "gate": "dockerfile",
+                                                "id": "ce7b8000-829b-4c27-8122-69cd59018400",
+                                                "params": [
+                                                    {
+                                                        "name": "ports",
+                                                        "value": "22"
+                                                    },
+                                                    {
+                                                        "name": "type",
+                                                        "value": "blacklist"
+                                                    }
+                                                ],
+                                                "trigger": "exposed_ports"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "dockerfile",
+                                                "id": "312d9e41-1c05-4e2f-ad89-b7d34b0855bb",
+                                                "params": [
+                                                    {
+                                                        "name": "instruction",
+                                                        "value": "HEALTHCHECK"
+                                                    },
+                                                    {
+                                                        "name": "check",
+                                                        "value": "not_exists"
+                                                    }
+                                                ],
+                                                "trigger": "instruction"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "vulnerabilities",
+                                                "id": "6b5c14e7-a6f7-48cc-99d2-959273a2c6fa",
+                                                "params": [
+                                                    {
+                                                        "name": "max_days_since_sync",
+                                                        "value": "2"
+                                                    }
+                                                ],
+                                                "trigger": "stale_feed_data"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "vulnerabilities",
+                                                "id": "3e79ea94-18c4-4d26-9e29-3b9172a62c2e",
+                                                "params": [],
+                                                "trigger": "vulnerability_data_unavailable"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "vulnerabilities",
+                                                "id": "6063fdde-b1c5-46af-973a-915739451ac4",
+                                                "params": [
+                                                    {
+                                                        "name": "package_type",
+                                                        "value": "all"
+                                                    },
+                                                    {
+                                                        "name": "severity_comparison",
+                                                        "value": "="
+                                                    },
+                                                    {
+                                                        "name": "severity",
+                                                        "value": "medium"
+                                                    }
+                                                ],
+                                                "trigger": "package"
+                                            },
+                                            {
+                                                "action": "STOP",
+                                                "gate": "vulnerabilities",
+                                                "id": "b30e8abc-444f-45b1-8a37-55be1b8c8bb5",
+                                                "params": [
+                                                    {
+                                                        "name": "package_type",
+                                                        "value": "all"
+                                                    },
+                                                    {
+                                                        "name": "severity_comparison",
+                                                        "value": ">"
+                                                    },
+                                                    {
+                                                        "name": "severity",
+                                                        "value": "medium"
+                                                    }
+                                                ],
+                                                "trigger": "package"
+                                            }
+                                        ],
+                                        "version": "1_0"
+                                    }
+                                ],
+                                "version": "1_0",
+                                "whitelisted_images": [],
+                                "whitelists": [
+                                    {
+                                        "comment": "Default global whitelist",
+                                        "id": "37fd763e-1765-11e8-add4-3b16c029ac5c",
+                                        "items": [],
+                                        "name": "Global Whitelist",
+                                        "version": "1_0"
+                                    }
+                                ]
+                            },
+                            "created_at": 1619702714,
+                            "evaluation_problems": [],
+                            "final_action": "stop",
+                            "final_action_reason": "policy_evaluation",
+                            "image_digest": "sha256:27250c047e77590edc14dbc9b30e21ca45ed91c806415afc9ac24549dc2b8a3d",
+                            "image_id": "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                            "last_modified": 1619702714,
+                            "matched_blacklisted_images_rule": false,
+                            "matched_mapping_rule": {
+                                "id": "c4f9bf74-dc38-4ddf-b5cf-00e9c0074611",
+                                "image": {
+                                    "type": "tag",
+                                    "value": "*"
+                                },
+                                "name": "default",
+                                "policy_id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                "registry": "*",
+                                "repository": "*",
+                                "whitelist_ids": [
+                                    "37fd763e-1765-11e8-add4-3b16c029ac5c"
+                                ]
+                            },
+                            "matched_whitelisted_images_rule": false,
+                            "result": {
+                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41": {
+                                    "result": {
+                                        "final_action": "stop",
+                                        "header": [
+                                            "Image_Id",
+                                            "Repo_Tag",
+                                            "Trigger_Id",
+                                            "Gate",
+                                            "Trigger",
+                                            "Check_Output",
+                                            "Gate_Action",
+                                            "Whitelisted",
+                                            "Policy_Id"
+                                        ],
+                                        "row_count": 56,
+                                        "rows": [
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "41cb7cdf04850e33a11f80c42bf660b3",
+                                                "dockerfile",
+                                                "instruction",
+                                                "Dockerfile directive 'HEALTHCHECK' not found, matching condition 'not_exists' check",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16842+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r1)(CVE-2018-16842 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16842)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16890+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r2)(CVE-2018-16890 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16890)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-3823+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r2)(CVE-2019-3823 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3823)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-15903+expat",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - expat (fixed in: 2.2.7-r1)(CVE-2019-15903 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15903)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-1351+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - git (fixed in: 2.15.4-r0)(CVE-2019-1351 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1351)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-1387+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - git (fixed in: 2.15.4-r0)(CVE-2019-1387 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1387)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16842+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r1)(CVE-2018-16842 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16842)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16890+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r2)(CVE-2018-16890 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16890)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-3823+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r2)(CVE-2019-3823 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3823)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-14404+libxml2",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - libxml2 (fixed in: 2.9.8-r1)(CVE-2018-14404 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14404)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-14567+libxml2",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - libxml2 (fixed in: 2.9.8-r1)(CVE-2018-14567 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14567)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-3902+mercurial",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - mercurial (fixed in: 4.5.2-r1)(CVE-2019-3902 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3902)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6109+openssh",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh (fixed in: 7.5_p1-r10)(CVE-2019-6109 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6111+openssh",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh (fixed in: 7.5_p1-r10)(CVE-2019-6111 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6109+openssh-client",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-client (fixed in: 7.5_p1-r10)(CVE-2019-6109 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6111+openssh-client",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-client (fixed in: 7.5_p1-r10)(CVE-2019-6111 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6109+openssh-keygen",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-keygen (fixed in: 7.5_p1-r10)(CVE-2019-6109 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6111+openssh-keygen",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-keygen (fixed in: 7.5_p1-r10)(CVE-2019-6111 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6109+openssh-server",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-server (fixed in: 7.5_p1-r10)(CVE-2019-6109 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6111+openssh-server",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-server (fixed in: 7.5_p1-r10)(CVE-2019-6111 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6109+openssh-server-common",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-server-common (fixed in: 7.5_p1-r10)(CVE-2019-6109 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6111+openssh-server-common",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-server-common (fixed in: 7.5_p1-r10)(CVE-2019-6111 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6109+openssh-sftp-server",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-sftp-server (fixed in: 7.5_p1-r10)(CVE-2019-6109 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-6111+openssh-sftp-server",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - openssh-sftp-server (fixed in: 7.5_p1-r10)(CVE-2019-6111 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-1000156+patch",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - patch (fixed in: 2.7.6-r0)(CVE-2018-1000156 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000156)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-6952+patch",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - patch (fixed in: 2.7.6-r0)(CVE-2018-6952 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6952)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-13636+patch",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - patch (fixed in: 2.7.5-r3)(CVE-2019-13636 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13636)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-20346+sqlite-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - sqlite-libs (fixed in: 3.25.3-r0)(CVE-2018-20346 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20346)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-11782+subversion",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - subversion (fixed in: 1.9.12-r0)(CVE-2018-11782 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11782)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-0203+subversion",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - subversion (fixed in: 1.9.12-r0)(CVE-2019-0203 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0203)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-11782+subversion-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - subversion-libs (fixed in: 1.9.12-r0)(CVE-2018-11782 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11782)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-0203+subversion-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (APKG) - subversion-libs (fixed in: 1.9.12-r0)(CVE-2019-0203 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0203)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-14618+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r0)(CVE-2018-14618 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14618)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16839+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r1)(CVE-2018-16839 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16839)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16840+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r1)(CVE-2018-16840 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16840)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-3822+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r2)(CVE-2019-3822 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3822)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-5481+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r3)(CVE-2019-5481 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5481)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-5482+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - curl (fixed in: 7.61.1-r3)(CVE-2019-5482 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5482)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-20843+expat",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - expat (fixed in: 2.2.7-r0)(CVE-2018-20843 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20843)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-17456+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - git (fixed in: 2.15.3-r0)(CVE-2018-17456 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-17456)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-1349+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - git (fixed in: 2.15.4-r0)(CVE-2019-1349 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1349)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-1350+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - git (fixed in: 2.15.4-r0)(CVE-2019-1350 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1350)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-1352+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - git (fixed in: 2.15.4-r0)(CVE-2019-1352 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1352)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-1353+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - git (fixed in: 2.15.4-r0)(CVE-2019-1353 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1353)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-1354+git",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - git (fixed in: 2.15.4-r0)(CVE-2019-1354 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1354)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-12900+libbz2",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - libbz2 (fixed in: 1.0.6-r7)(CVE-2019-12900 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12900)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16839+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r1)(CVE-2018-16839 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16839)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2018-16840+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r1)(CVE-2018-16840 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16840)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-3822+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r2)(CVE-2019-3822 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3822)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-5481+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r3)(CVE-2019-5481 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5481)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-5482+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - libcurl (fixed in: 7.61.1-r3)(CVE-2019-5482 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5482)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-14697+musl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - musl (fixed in: 1.1.18-r4)(CVE-2019-14697 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14697)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-14697+musl-utils",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - musl-utils (fixed in: 1.1.18-r4)(CVE-2019-14697 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14697)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-13638+patch",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - patch (fixed in: 2.7.6-r0)(CVE-2019-13638 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13638)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+                                                "localhost:5000/vuln-image:1.2.3",
+                                                "CVE-2019-8457+sqlite-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (APKG) - sqlite-libs (fixed in: 3.25.3-r1)(CVE-2019-8457 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8457)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ]
+                                        ]
+                                    }
+                                },
+                                "policy_data": [],
+                                "policy_name": "",
+                                "whitelist_data": [],
+                                "whitelist_names": []
+                            },
+                            "status": "fail",
+                            "tag": "localhost:5000/vuln-image:1.2.3",
+                            "user_id": "admin"
+                        }
+                    },
+                    "last_evaluation": "2021-04-29T13:25:14Z",
+                    "policyId": "2c53a13c-1765-11e8-82ef-23527761d060",
+                    "status": "fail"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,4 @@
+Sending build context to Docker daemon   2.56kB
+Step 1/1 : FROM wordpress AS app
+ ---> c01290f258b3
+Successfully built c01290f258b3

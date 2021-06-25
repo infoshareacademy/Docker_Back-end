@@ -1,0 +1,11 @@
+version: '3'
+services:
+  memcached-cli:
+    build:
+      dockerfile: ./Dockerfile.cli
+      context: .
+    depends_on:
+      - memcached
+    command: ["memcached", "11211"]
+    stdin_open: true
+    tty: true

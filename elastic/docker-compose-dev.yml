@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dejavu:
+    image: appbaseio/dejavu:3.2.3
+    ports:
+      - 8080:1358
+

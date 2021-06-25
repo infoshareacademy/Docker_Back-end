@@ -1,0 +1,5 @@
+version: '3'
+services:
+  php:
+    volumes:
+      - ./index.php:/application/index.php

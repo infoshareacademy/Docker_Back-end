@@ -1,0 +1,21 @@
+version: '3'
+services:
+  mysql-cli:
+    image: mysql:5.7
+    command: mysql -h mysql -u root -proot
+    depends_on:
+      - mysql
+  mysql-dump:
+    image: mysql:5.7
+    command: mysqldump -h mysql -u root -proot test
+    depends_on:
+      - mysql
+  adminer:
+    image: adminer
+    environment:
+      - ADMINER_DEFAULT_SERVER=mysql
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql
+

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  php:
+    image: my-application
+    build: .
+    #command: ["php", "/application/index.php"]
+    container_name: php-application
+    environment:
+      - NAME
+    ports:
+      - 80:80

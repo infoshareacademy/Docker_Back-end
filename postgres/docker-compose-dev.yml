@@ -1,0 +1,20 @@
+version: '3'
+services:
+  cli:
+    image: postgres:13.2
+    command: psql -h db -U postgres
+    depends_on:
+      - db
+  dump:
+    image: postgres:13.2
+    command: pg_dump -h db -U postgres
+    depends_on:
+      - db
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+
+

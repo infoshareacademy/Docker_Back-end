@@ -1,0 +1,32 @@
+version: '3'
+services:
+  lb:
+    build:
+      dockerfile: ./docker/lb/Dockerfile
+      context: .
+    image: application-lb:1.0
+    ports: 
+      - 80:80
+    depends_on:
+      - app
+  app:
+    build:
+      dockerfile: ./docker/app/Dockerfile
+      context: .
+    image: application:1.0
+    depends_on:
+      - mysql
+      - postgres
+      - redis
+      - memcached
+  mysql:
+    image: mysql:5.7
+    environment: ["MYSQL_ROOT_PASSWORD=password"]
+  postgres:
+    image: postgres:13.2
+    environment: ["POSTGRES_PASSWORD=password"]
+  redis:
+    image: redis:6.2
+  memcached:
+    image: memcached:1.6
+

@@ -1,0 +1,2297 @@
+{
+    "content": [
+        {
+            "cpes": [
+                "cpe:2.3:a:adduser:adduser:3.118:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:adduser:3.118:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian Adduser Developers <adduser@packages.debian.org> (maintainer)",
+            "package": "adduser",
+            "size": "849000",
+            "type": "dpkg",
+            "version": "3.118"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:apt:apt:1.8.2.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:apt:1.8.2.2:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "APT Development Team <deity@lists.debian.org> (maintainer)",
+            "package": "apt",
+            "size": "4064000",
+            "type": "dpkg",
+            "version": "1.8.2.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:base-files:base-files:10.3+deb10u9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:base-files:10.3+deb10u9:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Santiago Vila <sanvila@debian.org> (maintainer)",
+            "package": "base-files",
+            "size": "340000",
+            "type": "dpkg",
+            "version": "10.3+deb10u9"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:base-passwd:base-passwd:3.5.46:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:base-passwd:3.5.46:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2 PD",
+            "licenses": [
+                "GPL-2",
+                "PD"
+            ],
+            "origin": "Colin Watson <cjwatson@debian.org> (maintainer)",
+            "package": "base-passwd",
+            "size": "232000",
+            "type": "dpkg",
+            "version": "3.5.46"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:bash:bash:5.0-4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:bash:5.0-4:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Matthias Klose <doko@debian.org> (maintainer)",
+            "package": "bash",
+            "size": "6439000",
+            "type": "dpkg",
+            "version": "5.0-4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:bsdutils:bsdutils:1:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:bsdutils:1:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "bsdutils",
+            "size": "293000",
+            "type": "dpkg",
+            "version": "1:2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ca-certificates:ca-certificates:20200601~deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ca-certificates:20200601~deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+ MPL-2.0",
+            "licenses": [
+                "GPL-2+",
+                "MPL-2.0"
+            ],
+            "origin": "Julien Cristau <jcristau@debian.org> (maintainer)",
+            "package": "ca-certificates",
+            "size": "402000",
+            "type": "dpkg",
+            "version": "20200601~deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:coreutils:coreutils:8.30-3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:coreutils:8.30-3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Michael Stone <mstone@debian.org> (maintainer)",
+            "package": "coreutils",
+            "size": "15719000",
+            "type": "dpkg",
+            "version": "8.30-3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:curl:curl:7.64.0-4+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:curl:7.64.0-4+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause BSD-4-Clause ISC curl other public-domain",
+            "licenses": [
+                "BSD-3-Clause",
+                "BSD-4-Clause",
+                "ISC",
+                "curl",
+                "other",
+                "public-domain"
+            ],
+            "origin": "Alessandro Ghedini <ghedo@debian.org> (maintainer)",
+            "package": "curl",
+            "size": "401000",
+            "type": "dpkg",
+            "version": "7.64.0-4+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dash:dash:0.5.10.2-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dash:0.5.10.2-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Andrej Shadura <andrewsh@debian.org> (maintainer)",
+            "package": "dash",
+            "size": "212000",
+            "type": "dpkg",
+            "version": "0.5.10.2-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:debconf:debconf:1.5.71:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:debconf:1.5.71:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause",
+            "licenses": [
+                "BSD-2-clause"
+            ],
+            "origin": "Debconf Developers <debconf-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "debconf",
+            "size": "520000",
+            "type": "dpkg",
+            "version": "1.5.71"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:debian-archive-keyring:debian-archive-keyring:2019.1+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:debian-archive-keyring:2019.1+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian Release Team <packages@release.debian.org> (maintainer)",
+            "package": "debian-archive-keyring",
+            "size": "235000",
+            "type": "dpkg",
+            "version": "2019.1+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:debianutils:debianutils:4.8.6.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:debianutils:4.8.6.1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Clint Adams <clint@debian.org> (maintainer)",
+            "package": "debianutils",
+            "size": "226000",
+            "type": "dpkg",
+            "version": "4.8.6.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:diffutils:diffutils:1:3.7-3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:diffutils:1:3.7-3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Santiago Vila <sanvila@debian.org> (maintainer)",
+            "package": "diffutils",
+            "size": "1574000",
+            "type": "dpkg",
+            "version": "1:3.7-3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dpkg:dpkg:1.19.7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dpkg:1.19.7:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause GPL-2 GPL-2+ public-domain-md5 public-domain-s-s-d",
+            "licenses": [
+                "BSD-2-clause",
+                "GPL-2",
+                "GPL-2+",
+                "public-domain-md5",
+                "public-domain-s-s-d"
+            ],
+            "origin": "Dpkg Developers <debian-dpkg@lists.debian.org> (maintainer)",
+            "package": "dpkg",
+            "size": "6693000",
+            "type": "dpkg",
+            "version": "1.19.7"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:e2fsprogs:e2fsprogs:1.44.5-1+deb10u3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:e2fsprogs:1.44.5-1+deb10u3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Theodore Y. Ts'o <tytso@mit.edu> (maintainer)",
+            "package": "e2fsprogs",
+            "size": "1416000",
+            "type": "dpkg",
+            "version": "1.44.5-1+deb10u3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:fdisk:fdisk:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:fdisk:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "fdisk",
+            "size": "483000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:findutils:findutils:4.6.0+git+20190209-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:findutils:4.6.0+git+20190209-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Andreas Metzler <ametzler@debian.org> (maintainer)",
+            "package": "findutils",
+            "size": "1938000",
+            "type": "dpkg",
+            "version": "4.6.0+git+20190209-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:fontconfig-config:fontconfig-config:2.13.1-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:fontconfig-config:2.13.1-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org> (maintainer)",
+            "package": "fontconfig-config",
+            "size": "441000",
+            "type": "dpkg",
+            "version": "2.13.1-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:fonts-dejavu-core:fonts-dejavu-core:2.37-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:fonts-dejavu-core:2.37-1:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+ bitstream-vera",
+            "licenses": [
+                "GPL-2+",
+                "bitstream-vera"
+            ],
+            "origin": "Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "fonts-dejavu-core",
+            "size": "2954000",
+            "type": "dpkg",
+            "version": "2.37-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gcc-8-base:gcc-8-base:8.3.0-6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gcc-8-base:8.3.0-6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian GCC Maintainers <debian-gcc@lists.debian.org> (maintainer)",
+            "package": "gcc-8-base",
+            "size": "248000",
+            "type": "dpkg",
+            "version": "8.3.0-6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gettext-base:gettext-base:0.19.8.1-9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gettext-base:0.19.8.1-9:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Santiago Vila <sanvila@debian.org> (maintainer)",
+            "package": "gettext-base",
+            "size": "744000",
+            "type": "dpkg",
+            "version": "0.19.8.1-9"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gpgv:gpgv:2.2.12-1+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gpgv:2.2.12-1+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-clause CC0-1.0 Expat GPL-3+ LGPL-2.1+ LGPL-3+ RFC-Reference TinySCHEME permissive",
+            "licenses": [
+                "BSD-3-clause",
+                "CC0-1.0",
+                "Expat",
+                "GPL-3+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "RFC-Reference",
+                "TinySCHEME",
+                "permissive"
+            ],
+            "origin": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org> (maintainer)",
+            "package": "gpgv",
+            "size": "837000",
+            "type": "dpkg",
+            "version": "2.2.12-1+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:grep:grep:3.3-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:grep:3.3-1:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-3+",
+            "licenses": [
+                "GPL-3+"
+            ],
+            "origin": "Anibal Monsalve Salazar <anibal@debian.org> (maintainer)",
+            "package": "grep",
+            "size": "1014000",
+            "type": "dpkg",
+            "version": "3.3-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gzip:gzip:1.9-3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gzip:1.9-3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Bdale Garbee <bdale@gag.com> (maintainer)",
+            "package": "gzip",
+            "size": "243000",
+            "type": "dpkg",
+            "version": "1.9-3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:hostname:hostname:3.21:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:hostname:3.21:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Michael Meskes <meskes@debian.org> (maintainer)",
+            "package": "hostname",
+            "size": "54000",
+            "type": "dpkg",
+            "version": "3.21"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:init-system-helpers:init-system-helpers:1.56+nmu1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:init-system-helpers:1.56+nmu1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-clause GPL-2+",
+            "licenses": [
+                "BSD-3-clause",
+                "GPL-2+"
+            ],
+            "origin": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org> (maintainer)",
+            "package": "init-system-helpers",
+            "size": "133000",
+            "type": "dpkg",
+            "version": "1.56+nmu1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libacl1:libacl1:2.2.53-4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libacl1:2.2.53-4:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+ LGPL-2+",
+            "licenses": [
+                "GPL-2+",
+                "LGPL-2+"
+            ],
+            "origin": "Guillem Jover <guillem@debian.org> (maintainer)",
+            "package": "libacl1",
+            "size": "70000",
+            "type": "dpkg",
+            "version": "2.2.53-4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libapt-pkg5.0:libapt-pkg5.0:1.8.2.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libapt-pkg5.0:1.8.2.2:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "APT Development Team <deity@lists.debian.org> (maintainer)",
+            "package": "libapt-pkg5.0",
+            "size": "3243000",
+            "type": "dpkg",
+            "version": "1.8.2.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libattr1:libattr1:1:2.4.48-4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libattr1:1:2.4.48-4:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+ LGPL-2+",
+            "licenses": [
+                "GPL-2+",
+                "LGPL-2+"
+            ],
+            "origin": "Guillem Jover <guillem@debian.org> (maintainer)",
+            "package": "libattr1",
+            "size": "55000",
+            "type": "dpkg",
+            "version": "1:2.4.48-4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libaudit-common:libaudit-common:1:2.8.4-3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libaudit-common:1:2.8.4-3:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2 LGPL-2.1",
+            "licenses": [
+                "GPL-2",
+                "LGPL-2.1"
+            ],
+            "origin": "Laurent Bigonville <bigon@debian.org> (maintainer)",
+            "package": "libaudit-common",
+            "size": "33000",
+            "type": "dpkg",
+            "version": "1:2.8.4-3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libaudit1:libaudit1:1:2.8.4-3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libaudit1:1:2.8.4-3:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2 LGPL-2.1",
+            "licenses": [
+                "GPL-2",
+                "LGPL-2.1"
+            ],
+            "origin": "Laurent Bigonville <bigon@debian.org> (maintainer)",
+            "package": "libaudit1",
+            "size": "161000",
+            "type": "dpkg",
+            "version": "1:2.8.4-3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libblkid1:libblkid1:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libblkid1:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "libblkid1",
+            "size": "428000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libbsd0:libbsd0:0.9.1-2+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libbsd0:0.9.1-2+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-2-clause-NetBSD BSD-2-clause-author BSD-2-clause-verbatim BSD-3-clause BSD-3-clause-John-Birrell BSD-3-clause-Regents BSD-3-clause-author BSD-4-clause-Christopher-G-Demetriou BSD-4-clause-Niels-Provos BSD-5-clause-Peter-Wemm Beerware Expat ISC ISC-Original public-domain public-domain-Colin-Plumb",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-2-clause-NetBSD",
+                "BSD-2-clause-author",
+                "BSD-2-clause-verbatim",
+                "BSD-3-clause",
+                "BSD-3-clause-John-Birrell",
+                "BSD-3-clause-Regents",
+                "BSD-3-clause-author",
+                "BSD-4-clause-Christopher-G-Demetriou",
+                "BSD-4-clause-Niels-Provos",
+                "BSD-5-clause-Peter-Wemm",
+                "Beerware",
+                "Expat",
+                "ISC",
+                "ISC-Original",
+                "public-domain",
+                "public-domain-Colin-Plumb"
+            ],
+            "origin": "Guillem Jover <guillem@debian.org> (maintainer)",
+            "package": "libbsd0",
+            "size": "191000",
+            "type": "dpkg",
+            "version": "0.9.1-2+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libbz2-1.0:libbz2-1.0:1.0.6-9.2~deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libbz2-1.0:1.0.6-9.2~deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-variant GPL-2",
+            "licenses": [
+                "BSD-variant",
+                "GPL-2"
+            ],
+            "origin": "Anibal Monsalve Salazar <anibal@debian.org> (maintainer)",
+            "package": "libbz2-1.0",
+            "size": "104000",
+            "type": "dpkg",
+            "version": "1.0.6-9.2~deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libc-bin:libc-bin:2.28-10:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libc-bin:2.28-10:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "GNU Libc Maintainers <debian-glibc@lists.debian.org> (maintainer)",
+            "package": "libc-bin",
+            "size": "3493000",
+            "type": "dpkg",
+            "version": "2.28-10"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libc6:libc6:2.28-10:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libc6:2.28-10:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "GNU Libc Maintainers <debian-glibc@lists.debian.org> (maintainer)",
+            "package": "libc6",
+            "size": "12337000",
+            "type": "dpkg",
+            "version": "2.28-10"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcap-ng0:libcap-ng0:0.7.9-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcap-ng0:0.7.9-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Pierre Chifflier <pollux@debian.org> (maintainer)",
+            "package": "libcap-ng0",
+            "size": "47000",
+            "type": "dpkg",
+            "version": "0.7.9-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcom-err2:libcom-err2:1.44.5-1+deb10u3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcom-err2:1.44.5-1+deb10u3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Theodore Y. Ts'o <tytso@mit.edu> (maintainer)",
+            "package": "libcom-err2",
+            "size": "92000",
+            "type": "dpkg",
+            "version": "1.44.5-1+deb10u3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcurl4:libcurl4:7.64.0-4+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcurl4:7.64.0-4+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause BSD-4-Clause ISC curl other public-domain",
+            "licenses": [
+                "BSD-3-Clause",
+                "BSD-4-Clause",
+                "ISC",
+                "curl",
+                "other",
+                "public-domain"
+            ],
+            "origin": "Alessandro Ghedini <ghedo@debian.org> (maintainer)",
+            "package": "libcurl4",
+            "size": "698000",
+            "type": "dpkg",
+            "version": "7.64.0-4+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libdb5.3:libdb5.3:5.3.28+dfsg1-0.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libdb5.3:5.3.28+dfsg1-0.5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian Berkeley DB Team <team+bdb@tracker.debian.org> (maintainer)",
+            "package": "libdb5.3",
+            "size": "1802000",
+            "type": "dpkg",
+            "version": "5.3.28+dfsg1-0.5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libdebconfclient0:libdebconfclient0:0.249:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libdebconfclient0:0.249:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian Install System Team <debian-boot@lists.debian.org> (maintainer)",
+            "package": "libdebconfclient0",
+            "size": "72000",
+            "type": "dpkg",
+            "version": "0.249"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libexpat1:libexpat1:2.2.6-2+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libexpat1:2.2.6-2+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Laszlo Boszormenyi (GCS) <gcs@debian.org> (maintainer)",
+            "package": "libexpat1",
+            "size": "519000",
+            "type": "dpkg",
+            "version": "2.2.6-2+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libext2fs2:libext2fs2:1.44.5-1+deb10u3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libext2fs2:1.44.5-1+deb10u3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Theodore Y. Ts'o <tytso@mit.edu> (maintainer)",
+            "package": "libext2fs2",
+            "size": "476000",
+            "type": "dpkg",
+            "version": "1.44.5-1+deb10u3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libfdisk1:libfdisk1:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libfdisk1:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "libfdisk1",
+            "size": "546000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libffi6:libffi6:3.2.1-9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libffi6:3.2.1-9:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian GCC Maintainers <debian-gcc@lists.debian.org> (maintainer)",
+            "package": "libffi6",
+            "size": "56000",
+            "type": "dpkg",
+            "version": "3.2.1-9"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libfontconfig1:libfontconfig1:2.13.1-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libfontconfig1:2.13.1-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org> (maintainer)",
+            "package": "libfontconfig1",
+            "size": "525000",
+            "type": "dpkg",
+            "version": "2.13.1-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libfreetype6:libfreetype6:2.9.1-3+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libfreetype6:2.9.1-3+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause Catharon-OSL FSFUL FSFULLR FTL GPL-2+ GPL-3+ MIT OpenGroup-BSD-like Permissive Public-Domain Zlib",
+            "licenses": [
+                "BSD-3-Clause",
+                "Catharon-OSL",
+                "FSFUL",
+                "FSFULLR",
+                "FTL",
+                "GPL-2+",
+                "GPL-3+",
+                "MIT",
+                "OpenGroup-BSD-like",
+                "Permissive",
+                "Public-Domain",
+                "Zlib"
+            ],
+            "origin": "Hugh McMaster <hugh.mcmaster@outlook.com> (maintainer)",
+            "package": "libfreetype6",
+            "size": "842000",
+            "type": "dpkg",
+            "version": "2.9.1-3+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgcc1:libgcc1:1:8.3.0-6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgcc1:1:8.3.0-6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian GCC Maintainers <debian-gcc@lists.debian.org> (maintainer)",
+            "package": "libgcc1",
+            "size": "116000",
+            "type": "dpkg",
+            "version": "1:8.3.0-6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgcrypt20:libgcrypt20:1.8.4-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgcrypt20:1.8.4-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org> (maintainer)",
+            "package": "libgcrypt20",
+            "size": "1343000",
+            "type": "dpkg",
+            "version": "1.8.4-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgd3:libgd3:2.2.5-5.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgd3:2.2.5-5.2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-clause GAP~Makefile.in GAP~configure GD GPL-2+ HPND MIT WEBP XFIG",
+            "licenses": [
+                "BSD-3-clause",
+                "GAP~Makefile.in",
+                "GAP~configure",
+                "GD",
+                "GPL-2+",
+                "HPND",
+                "MIT",
+                "WEBP",
+                "XFIG"
+            ],
+            "origin": "GD Team <team+gd@tracker.debian.org> (maintainer)",
+            "package": "libgd3",
+            "size": "458000",
+            "type": "dpkg",
+            "version": "2.2.5-5.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgeoip1:libgeoip1:1.6.12-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgeoip1:1.6.12-1:*:*:*:*:*:*:*"
+            ],
+            "license": "ISC LGPL-2.1+",
+            "licenses": [
+                "ISC",
+                "LGPL-2.1+"
+            ],
+            "origin": "Patrick Matth\u00e4i <pmatthaei@debian.org> (maintainer)",
+            "package": "libgeoip1",
+            "size": "253000",
+            "type": "dpkg",
+            "version": "1.6.12-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgmp10:libgmp10:2:6.1.2+dfsg-4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgmp10:2:6.1.2+dfsg-4:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org> (maintainer)",
+            "package": "libgmp10",
+            "size": "565000",
+            "type": "dpkg",
+            "version": "2:6.1.2+dfsg-4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgnutls30:libgnutls30:3.6.7-4+deb10u6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgnutls30:3.6.7-4+deb10u6:*:*:*:*:*:*:*"
+            ],
+            "license": "CC0 GPLv3+ LGPLv3+_or_GPLv2+ The",
+            "licenses": [
+                "CC0",
+                "GPLv3+",
+                "LGPLv3+_or_GPLv2+",
+                "The"
+            ],
+            "origin": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org> (maintainer)",
+            "package": "libgnutls30",
+            "size": "2648000",
+            "type": "dpkg",
+            "version": "3.6.7-4+deb10u6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgpg-error0:libgpg-error0:1.35-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgpg-error0:1.35-1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-clause GPL-3+ LGPL-2.1+ g10-permissive",
+            "licenses": [
+                "BSD-3-clause",
+                "GPL-3+",
+                "LGPL-2.1+",
+                "g10-permissive"
+            ],
+            "origin": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org> (maintainer)",
+            "package": "libgpg-error0",
+            "size": "175000",
+            "type": "dpkg",
+            "version": "1.35-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.17-3+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgssapi-krb5-2:1.17-3+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sam Hartman <hartmans@debian.org> (maintainer)",
+            "package": "libgssapi-krb5-2",
+            "size": "428000",
+            "type": "dpkg",
+            "version": "1.17-3+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libhogweed4:libhogweed4:3.4.1-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libhogweed4:3.4.1-1:*:*:*:*:*:*:*"
+            ],
+            "license": "GAP GPL-2 GPL-2+ LGPL-2+ LGPL-2.1+ other public-domain",
+            "licenses": [
+                "GAP",
+                "GPL-2",
+                "GPL-2+",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "other",
+                "public-domain"
+            ],
+            "origin": "Magnus Holmgren <holmgren@debian.org> (maintainer)",
+            "package": "libhogweed4",
+            "size": "245000",
+            "type": "dpkg",
+            "version": "3.4.1-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libicu63:libicu63:63.1-6+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libicu63:63.1-6+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Laszlo Boszormenyi (GCS) <gcs@debian.org> (maintainer)",
+            "package": "libicu63",
+            "size": "31687000",
+            "type": "dpkg",
+            "version": "63.1-6+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libidn2-0:libidn2-0:2.0.5-1+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libidn2-0:2.0.5-1+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+ GPL-3+ LGPL-3+ Unicode",
+            "licenses": [
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL-3+",
+                "Unicode"
+            ],
+            "origin": "Debian Libidn team <help-libidn@gnu.org> (maintainer)",
+            "package": "libidn2-0",
+            "size": "280000",
+            "type": "dpkg",
+            "version": "2.0.5-1+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libjbig0:libjbig0:2.1-3.1+b2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libjbig0:2.1-3.1+b2:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+",
+            "licenses": [
+                "GPL-2+"
+            ],
+            "origin": "Michael van der Kolff <mvanderkolff@gmail.com> (maintainer)",
+            "package": "libjbig0",
+            "size": "78000",
+            "type": "dpkg",
+            "version": "2.1-3.1+b2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libjpeg62-turbo:libjpeg62-turbo:1:1.5.2-2+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libjpeg62-turbo:1:1.5.2-2+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3 BSD-BY-LC-NE Expat",
+            "licenses": [
+                "BSD-3",
+                "BSD-BY-LC-NE",
+                "Expat"
+            ],
+            "origin": "Ond\u0159ej Sur\u00fd <ondrej@debian.org> (maintainer)",
+            "package": "libjpeg62-turbo",
+            "size": "475000",
+            "type": "dpkg",
+            "version": "1:1.5.2-2+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libk5crypto3:libk5crypto3:1.17-3+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libk5crypto3:1.17-3+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sam Hartman <hartmans@debian.org> (maintainer)",
+            "package": "libk5crypto3",
+            "size": "313000",
+            "type": "dpkg",
+            "version": "1.17-3+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libkeyutils1:libkeyutils1:1.6-6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libkeyutils1:1.6-6:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+ LGPL-2+",
+            "licenses": [
+                "GPL-2+",
+                "LGPL-2+"
+            ],
+            "origin": "Christian Kastner <ckk@debian.org> (maintainer)",
+            "package": "libkeyutils1",
+            "size": "45000",
+            "type": "dpkg",
+            "version": "1.6-6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libkrb5-3:libkrb5-3:1.17-3+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libkrb5-3:1.17-3+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sam Hartman <hartmans@debian.org> (maintainer)",
+            "package": "libkrb5-3",
+            "size": "1134000",
+            "type": "dpkg",
+            "version": "1.17-3+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libkrb5support0:libkrb5support0:1.17-3+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libkrb5support0:1.17-3+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sam Hartman <hartmans@debian.org> (maintainer)",
+            "package": "libkrb5support0",
+            "size": "170000",
+            "type": "dpkg",
+            "version": "1.17-3+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libldap-2.4-2:libldap-2.4-2:2.4.47+dfsg-3+deb10u6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libldap-2.4-2:2.4.47+dfsg-3+deb10u6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "libldap-2.4-2",
+            "size": "526000",
+            "type": "dpkg",
+            "version": "2.4.47+dfsg-3+deb10u6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libldap-common:libldap-common:2.4.47+dfsg-3+deb10u6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libldap-common:2.4.47+dfsg-3+deb10u6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "libldap-common",
+            "size": "113000",
+            "type": "dpkg",
+            "version": "2.4.47+dfsg-3+deb10u6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:liblz4-1:liblz4-1:1.8.3-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:liblz4-1:1.8.3-1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause GPL-2 GPL-2+",
+            "licenses": [
+                "BSD-2-clause",
+                "GPL-2",
+                "GPL-2+"
+            ],
+            "origin": "Nobuhiro Iwamatsu <iwamatsu@debian.org> (maintainer)",
+            "package": "liblz4-1",
+            "size": "141000",
+            "type": "dpkg",
+            "version": "1.8.3-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:liblzma5:liblzma5:5.2.4-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:liblzma5:5.2.4-1:*:*:*:*:*:*:*"
+            ],
+            "license": "Autoconf GPL-2 GPL-2+ LGPL-2.1+ PD PD-debian config-h noderivs permissive-fsf permissive-nowarranty probably-PD",
+            "licenses": [
+                "Autoconf",
+                "GPL-2",
+                "GPL-2+",
+                "LGPL-2.1+",
+                "PD",
+                "PD-debian",
+                "config-h",
+                "noderivs",
+                "permissive-fsf",
+                "permissive-nowarranty",
+                "probably-PD"
+            ],
+            "origin": "Jonathan Nieder <jrnieder@gmail.com> (maintainer)",
+            "package": "liblzma5",
+            "size": "263000",
+            "type": "dpkg",
+            "version": "5.2.4-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libmount1:libmount1:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libmount1:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "libmount1",
+            "size": "475000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libncursesw6:libncursesw6:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libncursesw6:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Craig Small <csmall@debian.org> (maintainer)",
+            "package": "libncursesw6",
+            "size": "411000",
+            "type": "dpkg",
+            "version": "6.1+20181013-2+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnettle6:libnettle6:3.4.1-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnettle6:3.4.1-1:*:*:*:*:*:*:*"
+            ],
+            "license": "GAP GPL-2 GPL-2+ LGPL-2+ LGPL-2.1+ other public-domain",
+            "licenses": [
+                "GAP",
+                "GPL-2",
+                "GPL-2+",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "other",
+                "public-domain"
+            ],
+            "origin": "Magnus Holmgren <holmgren@debian.org> (maintainer)",
+            "package": "libnettle6",
+            "size": "380000",
+            "type": "dpkg",
+            "version": "3.4.1-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnghttp2-14:libnghttp2-14:1.36.0-2+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnghttp2-14:1.36.0-2+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause Expat GPL-3+ MIT SIL-OFL-1.1 all-permissive",
+            "licenses": [
+                "BSD-2-clause",
+                "Expat",
+                "GPL-3+",
+                "MIT",
+                "SIL-OFL-1.1",
+                "all-permissive"
+            ],
+            "origin": "Tomasz Buchert <tomasz@debian.org> (maintainer)",
+            "package": "libnghttp2-14",
+            "size": "210000",
+            "type": "dpkg",
+            "version": "1.36.0-2+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libp11-kit0:libp11-kit0:0.23.15-2+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libp11-kit0:0.23.15-2+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause ISC ISC+IBM permissive-like-automake-output same-as-rest-of-p11kit",
+            "licenses": [
+                "BSD-3-Clause",
+                "ISC",
+                "ISC+IBM",
+                "permissive-like-automake-output",
+                "same-as-rest-of-p11kit"
+            ],
+            "origin": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org> (maintainer)",
+            "package": "libp11-kit0",
+            "size": "1365000",
+            "type": "dpkg",
+            "version": "0.23.15-2+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpam-modules:libpam-modules:1.3.1-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpam-modules:1.3.1-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Steve Langasek <vorlon@debian.org> (maintainer)",
+            "package": "libpam-modules",
+            "size": "1059000",
+            "type": "dpkg",
+            "version": "1.3.1-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpam-modules-bin:libpam-modules-bin:1.3.1-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpam-modules-bin:1.3.1-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Steve Langasek <vorlon@debian.org> (maintainer)",
+            "package": "libpam-modules-bin",
+            "size": "238000",
+            "type": "dpkg",
+            "version": "1.3.1-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpam-runtime:libpam-runtime:1.3.1-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpam-runtime:1.3.1-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Steve Langasek <vorlon@debian.org> (maintainer)",
+            "package": "libpam-runtime",
+            "size": "1072000",
+            "type": "dpkg",
+            "version": "1.3.1-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpam0g:libpam0g:1.3.1-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpam0g:1.3.1-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Steve Langasek <vorlon@debian.org> (maintainer)",
+            "package": "libpam0g",
+            "size": "244000",
+            "type": "dpkg",
+            "version": "1.3.1-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpcre3:libpcre3:2:8.39-12:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpcre3:2:8.39-12:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Matthew Vernon <matthew@debian.org> (maintainer)",
+            "package": "libpcre3",
+            "size": "673000",
+            "type": "dpkg",
+            "version": "2:8.39-12"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpng16-16:libpng16-16:1.6.36-6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpng16-16:1.6.36-6:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache-2.0 BSD-3-clause BSD-like-with-advertising-clause GPL-2+ expat libpng",
+            "licenses": [
+                "Apache-2.0",
+                "BSD-3-clause",
+                "BSD-like-with-advertising-clause",
+                "GPL-2+",
+                "expat",
+                "libpng"
+            ],
+            "origin": "Maintainers of libpng1.6 packages <libpng1.6@packages.debian.org> (maintainer)",
+            "package": "libpng16-16",
+            "size": "439000",
+            "type": "dpkg",
+            "version": "1.6.36-6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpsl5:libpsl5:0.20.2-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpsl5:0.20.2-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Chromium MIT",
+            "licenses": [
+                "Chromium",
+                "MIT"
+            ],
+            "origin": "Tim R\u00fchsen <tim.ruehsen@gmx.de> (maintainer)",
+            "package": "libpsl5",
+            "size": "90000",
+            "type": "dpkg",
+            "version": "0.20.2-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libreadline7:libreadline7:7.0-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libreadline7:7.0-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Matthias Klose <doko@debian.org> (maintainer)",
+            "package": "libreadline7",
+            "size": "416000",
+            "type": "dpkg",
+            "version": "7.0-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:librtmp1:librtmp1:2.4+20151223.gitfa8646d.1-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:librtmp1:2.4+20151223.gitfa8646d.1-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org> (maintainer)",
+            "package": "librtmp1",
+            "size": "141000",
+            "type": "dpkg",
+            "version": "2.4+20151223.gitfa8646d.1-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsasl2-2:libsasl2-2:2.1.27+dfsg-1+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsasl2-2:2.1.27+dfsg-1+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-4-clause GPL-3+",
+            "licenses": [
+                "BSD-4-clause",
+                "GPL-3+"
+            ],
+            "origin": "Debian Cyrus Team <team+cyrus@tracker.debian.org> (maintainer)",
+            "package": "libsasl2-2",
+            "size": "188000",
+            "type": "dpkg",
+            "version": "2.1.27+dfsg-1+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsasl2-modules-db:libsasl2-modules-db:2.1.27+dfsg-1+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsasl2-modules-db:2.1.27+dfsg-1+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-4-clause GPL-3+",
+            "licenses": [
+                "BSD-4-clause",
+                "GPL-3+"
+            ],
+            "origin": "Debian Cyrus Team <team+cyrus@tracker.debian.org> (maintainer)",
+            "package": "libsasl2-modules-db",
+            "size": "101000",
+            "type": "dpkg",
+            "version": "2.1.27+dfsg-1+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libseccomp2:libseccomp2:2.3.3-4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libseccomp2:2.3.3-4:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPL-2.1",
+            "licenses": [
+                "LGPL-2.1"
+            ],
+            "origin": "Kees Cook <kees@debian.org> (maintainer)",
+            "package": "libseccomp2",
+            "size": "306000",
+            "type": "dpkg",
+            "version": "2.3.3-4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libselinux1:libselinux1:2.8-1+b1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libselinux1:2.8-1+b1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "libselinux1",
+            "size": "194000",
+            "type": "dpkg",
+            "version": "2.8-1+b1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsemanage-common:libsemanage-common:2.8-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsemanage-common:2.8-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "libsemanage-common",
+            "size": "30000",
+            "type": "dpkg",
+            "version": "2.8-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsemanage1:libsemanage1:2.8-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsemanage1:2.8-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "libsemanage1",
+            "size": "301000",
+            "type": "dpkg",
+            "version": "2.8-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsepol1:libsepol1:2.8-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsepol1:2.8-1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "libsepol1",
+            "size": "724000",
+            "type": "dpkg",
+            "version": "2.8-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsmartcols1:libsmartcols1:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsmartcols1:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "libsmartcols1",
+            "size": "314000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libss2:libss2:1.44.5-1+deb10u3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libss2:1.44.5-1+deb10u3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Theodore Y. Ts'o <tytso@mit.edu> (maintainer)",
+            "package": "libss2",
+            "size": "104000",
+            "type": "dpkg",
+            "version": "1.44.5-1+deb10u3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libssh2-1:libssh2-1:1.8.0-2.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libssh2-1:1.8.0-2.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD3",
+            "licenses": [
+                "BSD3"
+            ],
+            "origin": "Mikhail Gusarov <dottedmag@debian.org> (maintainer)",
+            "package": "libssh2-1",
+            "size": "270000",
+            "type": "dpkg",
+            "version": "1.8.0-2.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1d-0+deb10u6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libssl1.1:1.1.1d-0+deb10u6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "libssl1.1",
+            "size": "4077000",
+            "type": "dpkg",
+            "version": "1.1.1d-0+deb10u6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libstdc++6:libstdc++6:8.3.0-6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libstdc++6:8.3.0-6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian GCC Maintainers <debian-gcc@lists.debian.org> (maintainer)",
+            "package": "libstdc++6",
+            "size": "2017000",
+            "type": "dpkg",
+            "version": "8.3.0-6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsystemd0:libsystemd0:241-7~deb10u7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsystemd0:241-7~deb10u7:*:*:*:*:*:*:*"
+            ],
+            "license": "CC0-1.0 Expat GPL-2 GPL-2+ LGPL-2.1+ public-domain",
+            "licenses": [
+                "CC0-1.0",
+                "Expat",
+                "GPL-2",
+                "GPL-2+",
+                "LGPL-2.1+",
+                "public-domain"
+            ],
+            "origin": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org> (maintainer)",
+            "package": "libsystemd0",
+            "size": "768000",
+            "type": "dpkg",
+            "version": "241-7~deb10u7"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libtasn1-6:libtasn1-6:4.13-3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libtasn1-6:4.13-3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org> (maintainer)",
+            "package": "libtasn1-6",
+            "size": "112000",
+            "type": "dpkg",
+            "version": "4.13-3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libtiff5:libtiff5:4.1.0+git191117-2~deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libtiff5:4.1.0+git191117-2~deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "Hylafax",
+            "licenses": [
+                "Hylafax"
+            ],
+            "origin": "Laszlo Boszormenyi (GCS) <gcs@debian.org> (maintainer)",
+            "package": "libtiff5",
+            "size": "645000",
+            "type": "dpkg",
+            "version": "4.1.0+git191117-2~deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libtinfo6:libtinfo6:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libtinfo6:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Craig Small <csmall@debian.org> (maintainer)",
+            "package": "libtinfo6",
+            "size": "521000",
+            "type": "dpkg",
+            "version": "6.1+20181013-2+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libudev1:libudev1:241-7~deb10u7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libudev1:241-7~deb10u7:*:*:*:*:*:*:*"
+            ],
+            "license": "CC0-1.0 Expat GPL-2 GPL-2+ LGPL-2.1+ public-domain",
+            "licenses": [
+                "CC0-1.0",
+                "Expat",
+                "GPL-2",
+                "GPL-2+",
+                "LGPL-2.1+",
+                "public-domain"
+            ],
+            "origin": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org> (maintainer)",
+            "package": "libudev1",
+            "size": "259000",
+            "type": "dpkg",
+            "version": "241-7~deb10u7"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libunistring2:libunistring2:0.9.10-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libunistring2:0.9.10-1:*:*:*:*:*:*:*"
+            ],
+            "license": "FreeSoftware GFDL-1.2+ GPL-2+ GPL-3+ LGPL-3+ MIT",
+            "licenses": [
+                "FreeSoftware",
+                "GFDL-1.2+",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL-3+",
+                "MIT"
+            ],
+            "origin": "J\u00f6rg Frings-F\u00fcrst <debian@jff.email> (maintainer)",
+            "package": "libunistring2",
+            "size": "1600000",
+            "type": "dpkg",
+            "version": "0.9.10-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libuuid1:libuuid1:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libuuid1:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "libuuid1",
+            "size": "120000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libwebp6:libwebp6:0.6.1-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libwebp6:0.6.1-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Jeff Breidenbach <jab@debian.org> (maintainer)",
+            "package": "libwebp6",
+            "size": "503000",
+            "type": "dpkg",
+            "version": "0.6.1-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libx11-6:libx11-6:2:1.6.7-1+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libx11-6:2:1.6.7-1+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian X Strike Force <debian-x@lists.debian.org> (maintainer)",
+            "package": "libx11-6",
+            "size": "1555000",
+            "type": "dpkg",
+            "version": "2:1.6.7-1+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libx11-data:libx11-data:2:1.6.7-1+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libx11-data:2:1.6.7-1+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian X Strike Force <debian-x@lists.debian.org> (maintainer)",
+            "package": "libx11-data",
+            "size": "1669000",
+            "type": "dpkg",
+            "version": "2:1.6.7-1+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxau6:libxau6:1:1.0.8-1+b2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxau6:1:1.0.8-1+b2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian X Strike Force <debian-x@lists.debian.org> (maintainer)",
+            "package": "libxau6",
+            "size": "43000",
+            "type": "dpkg",
+            "version": "1:1.0.8-1+b2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxcb1:libxcb1:1.13.1-2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxcb1:1.13.1-2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian X Strike Force <debian-x@lists.debian.org> (maintainer)",
+            "package": "libxcb1",
+            "size": "290000",
+            "type": "dpkg",
+            "version": "1.13.1-2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxdmcp6:libxdmcp6:1:1.1.2-3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxdmcp6:1:1.1.2-3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian X Strike Force <debian-x@lists.debian.org> (maintainer)",
+            "package": "libxdmcp6",
+            "size": "53000",
+            "type": "dpkg",
+            "version": "1:1.1.2-3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxml2:libxml2:2.9.4+dfsg1-7+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxml2:2.9.4+dfsg1-7+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "ISC MIT-1",
+            "licenses": [
+                "ISC",
+                "MIT-1"
+            ],
+            "origin": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org> (maintainer)",
+            "package": "libxml2",
+            "size": "1858000",
+            "type": "dpkg",
+            "version": "2.9.4+dfsg1-7+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxpm4:libxpm4:1:3.5.12-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxpm4:1:3.5.12-1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian X Strike Force <debian-x@lists.debian.org> (maintainer)",
+            "package": "libxpm4",
+            "size": "104000",
+            "type": "dpkg",
+            "version": "1:3.5.12-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxslt1.1:libxslt1.1:1.1.32-2.2~deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxslt1.1:1.1.32-2.2~deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org> (maintainer)",
+            "package": "libxslt1.1",
+            "size": "493000",
+            "type": "dpkg",
+            "version": "1.1.32-2.2~deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libzstd1:libzstd1:1.3.8+dfsg-3+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libzstd1:1.3.8+dfsg-3+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-clause Expat GPL-2 GPL-2+ zlib",
+            "licenses": [
+                "BSD-3-clause",
+                "Expat",
+                "GPL-2",
+                "GPL-2+",
+                "zlib"
+            ],
+            "origin": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org> (maintainer)",
+            "package": "libzstd1",
+            "size": "666000",
+            "type": "dpkg",
+            "version": "1.3.8+dfsg-3+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:login:login:1:4.5-1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:login:1:4.5-1.1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "login",
+            "size": "2695000",
+            "type": "dpkg",
+            "version": "1:4.5-1.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:lsb-base:lsb-base:10.2019051400:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:lsb-base:10.2019051400:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-clause GPL-2",
+            "licenses": [
+                "BSD-3-clause",
+                "GPL-2"
+            ],
+            "origin": "Debian LSB Team <debian-lsb@lists.debian.org> (maintainer)",
+            "package": "lsb-base",
+            "size": "49000",
+            "type": "dpkg",
+            "version": "10.2019051400"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:mawk:mawk:1.3.3-17+b3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:mawk:1.3.3-17+b3:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Steve Langasek <vorlon@debian.org> (maintainer)",
+            "package": "mawk",
+            "size": "183000",
+            "type": "dpkg",
+            "version": "1.3.3-17+b3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:mount:mount:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:mount:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "mount",
+            "size": "418000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ncurses-base:ncurses-base:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ncurses-base:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Craig Small <csmall@debian.org> (maintainer)",
+            "package": "ncurses-base",
+            "size": "368000",
+            "type": "dpkg",
+            "version": "6.1+20181013-2+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ncurses-bin:ncurses-bin:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ncurses-bin:6.1+20181013-2+deb10u2:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Craig Small <csmall@debian.org> (maintainer)",
+            "package": "ncurses-bin",
+            "size": "616000",
+            "type": "dpkg",
+            "version": "6.1+20181013-2+deb10u2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:nginx:nginx:1.19.10-1~buster:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:nginx:1.19.10-1~buster:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sergey Budnevitch <sb@nginx.com> (maintainer)",
+            "package": "nginx",
+            "size": "3031000",
+            "type": "dpkg",
+            "version": "1.19.10-1~buster"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:nginx-module-geoip:nginx-module-geoip:1.19.10-1~buster:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:nginx-module-geoip:1.19.10-1~buster:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sergey Budnevitch <sb@nginx.com> (maintainer)",
+            "package": "nginx-module-geoip",
+            "size": "167000",
+            "type": "dpkg",
+            "version": "1.19.10-1~buster"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:nginx-module-image-filter:nginx-module-image-filter:1.19.10-1~buster:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:nginx-module-image-filter:1.19.10-1~buster:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sergey Budnevitch <sb@nginx.com> (maintainer)",
+            "package": "nginx-module-image-filter",
+            "size": "133000",
+            "type": "dpkg",
+            "version": "1.19.10-1~buster"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:nginx-module-njs:nginx-module-njs:1.19.10+0.5.3-1~buster:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:nginx-module-njs:1.19.10+0.5.3-1~buster:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sergey Budnevitch <sb@nginx.com> (maintainer)",
+            "package": "nginx-module-njs",
+            "size": "3874000",
+            "type": "dpkg",
+            "version": "1.19.10+0.5.3-1~buster"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:nginx-module-xslt:nginx-module-xslt:1.19.10-1~buster:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:nginx-module-xslt:1.19.10-1~buster:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Sergey Budnevitch <sb@nginx.com> (maintainer)",
+            "package": "nginx-module-xslt",
+            "size": "125000",
+            "type": "dpkg",
+            "version": "1.19.10-1~buster"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:openssl:openssl:1.1.1d-0+deb10u6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:openssl:1.1.1d-0+deb10u6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "openssl",
+            "size": "1460000",
+            "type": "dpkg",
+            "version": "1.1.1d-0+deb10u6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:passwd:passwd:1:4.5-1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:passwd:1:4.5-1.1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org> (maintainer)",
+            "package": "passwd",
+            "size": "2591000",
+            "type": "dpkg",
+            "version": "1:4.5-1.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-base:perl-base:5.28.1-6+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-base:5.28.1-6+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Artistic Artistic-2 Artistic-dist BSD-3-clause BSD-3-clause-GENERIC BSD-3-clause-with-weird-numbering BSD-4-clause-POWERDOG BZIP DONT-CHANGE-THE-GPL Expat GPL-1+ GPL-2+ GPL-3+-WITH-BISON-EXCEPTION HSIEH-BSD HSIEH-DERIVATIVE LGPL-2.1 REGCOMP REGCOMP, RRA-KEEP-THIS-NOTICE S2P SDBM-PUBLIC-DOMAIN TEXT-TABS Unicode ZLIB",
+            "licenses": [
+                "Artistic",
+                "Artistic-2",
+                "Artistic-dist",
+                "BSD-3-clause",
+                "BSD-3-clause-GENERIC",
+                "BSD-3-clause-with-weird-numbering",
+                "BSD-4-clause-POWERDOG",
+                "BZIP",
+                "DONT-CHANGE-THE-GPL",
+                "Expat",
+                "GPL-1+",
+                "GPL-2+",
+                "GPL-3+-WITH-BISON-EXCEPTION",
+                "HSIEH-BSD",
+                "HSIEH-DERIVATIVE",
+                "LGPL-2.1",
+                "REGCOMP",
+                "REGCOMP,",
+                "RRA-KEEP-THIS-NOTICE",
+                "S2P",
+                "SDBM-PUBLIC-DOMAIN",
+                "TEXT-TABS",
+                "Unicode",
+                "ZLIB"
+            ],
+            "origin": "Niko Tyni <ntyni@debian.org> (maintainer)",
+            "package": "perl-base",
+            "size": "10148000",
+            "type": "dpkg",
+            "version": "5.28.1-6+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:readline-common:readline-common:7.0-5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:readline-common:7.0-5:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Matthias Klose <doko@debian.org> (maintainer)",
+            "package": "readline-common",
+            "size": "89000",
+            "type": "dpkg",
+            "version": "7.0-5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:sed:sed:4.7-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:sed:4.7-1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Clint Adams <clint@debian.org> (maintainer)",
+            "package": "sed",
+            "size": "883000",
+            "type": "dpkg",
+            "version": "4.7-1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:sensible-utils:sensible-utils:0.0.12:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:sensible-utils:0.0.12:*:*:*:*:*:*:*"
+            ],
+            "license": "All-permissive GPL-2+ configure installsh",
+            "licenses": [
+                "All-permissive",
+                "GPL-2+",
+                "configure",
+                "installsh"
+            ],
+            "origin": "Anibal Monsalve Salazar <anibal@debian.org> (maintainer)",
+            "package": "sensible-utils",
+            "size": "62000",
+            "type": "dpkg",
+            "version": "0.0.12"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:sysvinit-utils:sysvinit-utils:2.93-8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:sysvinit-utils:2.93-8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2+",
+            "licenses": [
+                "GPL-2+"
+            ],
+            "origin": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk> (maintainer)",
+            "package": "sysvinit-utils",
+            "size": "131000",
+            "type": "dpkg",
+            "version": "2.93-8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:tar:tar:1.30+dfsg-6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:tar:1.30+dfsg-6:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "Bdale Garbee <bdale@gag.com> (maintainer)",
+            "package": "tar",
+            "size": "2884000",
+            "type": "dpkg",
+            "version": "1.30+dfsg-6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:tzdata:tzdata:2021a-0+deb10u1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:tzdata:2021a-0+deb10u1:*:*:*:*:*:*:*"
+            ],
+            "license": "Unknown",
+            "licenses": [
+                "Unknown"
+            ],
+            "origin": "GNU Libc Maintainers <debian-glibc@lists.debian.org> (maintainer)",
+            "package": "tzdata",
+            "size": "3040000",
+            "type": "dpkg",
+            "version": "2021a-0+deb10u1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ucf:ucf:3.0038+nmu1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ucf:3.0038+nmu1:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2",
+            "licenses": [
+                "GPL-2"
+            ],
+            "origin": "Manoj Srivastava <srivasta@debian.org> (maintainer)",
+            "package": "ucf",
+            "size": "188000",
+            "type": "dpkg",
+            "version": "3.0038+nmu1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:util-linux:util-linux:2.33.1-0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:util-linux:2.33.1-0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-clause BSD-3-clause BSD-4-clause GPL-2 GPL-2+ GPL-3+ LGPL LGPL-2+ LGPL-2.1+ LGPL-3+ MIT public-domain",
+            "licenses": [
+                "BSD-2-clause",
+                "BSD-3-clause",
+                "BSD-4-clause",
+                "GPL-2",
+                "GPL-2+",
+                "GPL-3+",
+                "LGPL",
+                "LGPL-2+",
+                "LGPL-2.1+",
+                "LGPL-3+",
+                "MIT",
+                "public-domain"
+            ],
+            "origin": "LaMont Jones <lamont@debian.org> (maintainer)",
+            "package": "util-linux",
+            "size": "4327000",
+            "type": "dpkg",
+            "version": "2.33.1-0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:zlib1g:zlib1g:1:1.2.11.dfsg-1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:zlib1g:1:1.2.11.dfsg-1:*:*:*:*:*:*:*"
+            ],
+            "license": "Zlib",
+            "licenses": [
+                "Zlib"
+            ],
+            "origin": "Mark Brown <broonie@debian.org> (maintainer)",
+            "package": "zlib1g",
+            "size": "174000",
+            "type": "dpkg",
+            "version": "1:1.2.11.dfsg-1"
+        }
+    ],
+    "content_type": "os",
+    "imageDigest": "sha256:131543bae5f70edd69a1e0163e844115ec42f3b66c1ea687f39a53cfca5cba90"
+}

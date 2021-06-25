@@ -1,0 +1,1990 @@
+{
+    "imageDigest": "sha256:27250c047e77590edc14dbc9b30e21ca45ed91c806415afc9ac24549dc2b8a3d",
+    "vulnerabilities": [
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 10.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-14618"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14618",
+            "vendor_data": [],
+            "vuln": "CVE-2018-14618"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-16839"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16839",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16839"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-16840"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16840",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16840"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2018-16842"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16842",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16842"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r2",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-16890"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16890",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16890"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r2",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-3822"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3822",
+            "vendor_data": [],
+            "vuln": "CVE-2019-3822"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r2",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-3823"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3823",
+            "vendor_data": [],
+            "vuln": "CVE-2019-3823"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r3",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-5481"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5481",
+            "vendor_data": [],
+            "vuln": "CVE-2019-5481"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r3",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-5482"
+                }
+            ],
+            "package": "curl-7.61.0-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.0-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5482",
+            "vendor_data": [],
+            "vuln": "CVE-2019-5482"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.2.7-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.8,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20843"
+                }
+            ],
+            "package": "expat-2.2.5-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "expat",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.2.5-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20843",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20843"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.2.7-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-15903"
+                }
+            ],
+            "package": "expat-2.2.5-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "expat",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.2.5-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15903",
+            "vendor_data": [],
+            "vuln": "CVE-2019-15903"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.3-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-17456"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-17456",
+            "vendor_data": [],
+            "vuln": "CVE-2018-17456"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 3.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 3.3,
+                        "exploitability_score": 1.8,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2019-1348"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1348",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1348"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 9.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.8,
+                        "exploitability_score": 2.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-1349"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1349",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1349"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 9.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.8,
+                        "exploitability_score": 2.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-1350"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1350",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1350"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-1351"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1351",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1351"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 9.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.8,
+                        "exploitability_score": 2.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-1352"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1352",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1352"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-1353"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1353",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1353"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 9.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.8,
+                        "exploitability_score": 2.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-1354"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1354",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1354"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.15.4-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.8,
+                        "exploitability_score": 2.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-1387"
+                }
+            ],
+            "package": "git-2.15.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "git",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.15.2-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1387",
+            "vendor_data": [],
+            "vuln": "CVE-2019-1387"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.0.6-r7",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-12900"
+                }
+            ],
+            "package": "libbz2-1.0.6-r6",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libbz2",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.0.6-r6",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12900",
+            "vendor_data": [],
+            "vuln": "CVE-2019-12900"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-16839"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16839",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16839"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-16840"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16840",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16840"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2018-16842"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16842",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16842"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r2",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-16890"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16890",
+            "vendor_data": [],
+            "vuln": "CVE-2018-16890"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r2",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-3822"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3822",
+            "vendor_data": [],
+            "vuln": "CVE-2019-3822"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r2",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-3823"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3823",
+            "vendor_data": [],
+            "vuln": "CVE-2019-3823"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r3",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-5481"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5481",
+            "vendor_data": [],
+            "vuln": "CVE-2019-5481"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.61.1-r3",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-5482"
+                }
+            ],
+            "package": "libcurl-7.61.1-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.61.1-r0",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5482",
+            "vendor_data": [],
+            "vuln": "CVE-2019-5482"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.9.8-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-14404"
+                }
+            ],
+            "package": "libxml2-2.9.7-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libxml2",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.9.7-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14404",
+            "vendor_data": [],
+            "vuln": "CVE-2018-14404"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.9.8-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 2.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-14567"
+                }
+            ],
+            "package": "libxml2-2.9.7-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libxml2",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.9.7-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14567",
+            "vendor_data": [],
+            "vuln": "CVE-2018-14567"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.9.8-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.6,
+                        "exploitability_score": 4.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 1.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-9251"
+                }
+            ],
+            "package": "libxml2-2.9.7-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libxml2",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.9.7-r0",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9251",
+            "vendor_data": [],
+            "vuln": "CVE-2018-9251"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "4.5.2-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-3902"
+                }
+            ],
+            "package": "mercurial-4.5.2-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "mercurial",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "4.5.2-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3902",
+            "vendor_data": [],
+            "vuln": "CVE-2019-3902"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.1.18-r4",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-14697"
+                }
+            ],
+            "package": "musl-1.1.18-r3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "musl",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.1.18-r3",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14697",
+            "vendor_data": [],
+            "vuln": "CVE-2019-14697"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.1.18-r4",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-14697"
+                }
+            ],
+            "package": "musl-utils-1.1.18-r3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "musl-utils",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.1.18-r3",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14697",
+            "vendor_data": [],
+            "vuln": "CVE-2019-14697"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.6,
+                        "exploitability_score": 4.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 1.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20685"
+                }
+            ],
+            "package": "openssh-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20685",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20685"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 4.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.8,
+                        "exploitability_score": 1.6,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2019-6109"
+                }
+            ],
+            "package": "openssh-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6109"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-6111"
+                }
+            ],
+            "package": "openssh-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6111"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.6,
+                        "exploitability_score": 4.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 1.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20685"
+                }
+            ],
+            "package": "openssh-client-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-client",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20685",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20685"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 4.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.8,
+                        "exploitability_score": 1.6,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2019-6109"
+                }
+            ],
+            "package": "openssh-client-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-client",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6109"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-6111"
+                }
+            ],
+            "package": "openssh-client-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-client",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6111"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.6,
+                        "exploitability_score": 4.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 1.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20685"
+                }
+            ],
+            "package": "openssh-keygen-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-keygen",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20685",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20685"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 4.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.8,
+                        "exploitability_score": 1.6,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2019-6109"
+                }
+            ],
+            "package": "openssh-keygen-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-keygen",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6109"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-6111"
+                }
+            ],
+            "package": "openssh-keygen-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-keygen",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6111"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.6,
+                        "exploitability_score": 4.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 1.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20685"
+                }
+            ],
+            "package": "openssh-server-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-server",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20685",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20685"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 4.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.8,
+                        "exploitability_score": 1.6,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2019-6109"
+                }
+            ],
+            "package": "openssh-server-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-server",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6109"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-6111"
+                }
+            ],
+            "package": "openssh-server-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-server",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6111"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.6,
+                        "exploitability_score": 4.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 1.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20685"
+                }
+            ],
+            "package": "openssh-server-common-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-server-common",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20685",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20685"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 4.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.8,
+                        "exploitability_score": 1.6,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2019-6109"
+                }
+            ],
+            "package": "openssh-server-common-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-server-common",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6109"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-6111"
+                }
+            ],
+            "package": "openssh-server-common-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-server-common",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6111"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.6,
+                        "exploitability_score": 4.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 1.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20685"
+                }
+            ],
+            "package": "openssh-sftp-server-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-sftp-server",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20685",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20685"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 4.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.8,
+                        "exploitability_score": 1.6,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2019-6109"
+                }
+            ],
+            "package": "openssh-sftp-server-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-sftp-server",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6109",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6109"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "7.5_p1-r10",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-6111"
+                }
+            ],
+            "package": "openssh-sftp-server-7.5_p1-r9",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "openssh-sftp-server",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "7.5_p1-r9",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6111",
+            "vendor_data": [],
+            "vuln": "CVE-2019-6111"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.7.6-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-1000156"
+                }
+            ],
+            "package": "patch-2.7.5-r2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "patch",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.7.5-r2",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000156",
+            "vendor_data": [],
+            "vuln": "CVE-2018-1000156"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.7.6-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-6952"
+                }
+            ],
+            "package": "patch-2.7.5-r2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "patch",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.7.5-r2",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6952",
+            "vendor_data": [],
+            "vuln": "CVE-2018-6952"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.7.5-r3",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-13636"
+                }
+            ],
+            "package": "patch-2.7.5-r2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "patch",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.7.5-r2",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13636",
+            "vendor_data": [],
+            "vuln": "CVE-2019-13636"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "2.7.6-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 9.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-13638"
+                }
+            ],
+            "package": "patch-2.7.5-r2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "patch",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "2.7.5-r2",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13638",
+            "vendor_data": [],
+            "vuln": "CVE-2019-13638"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "3.25.3-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.1,
+                        "exploitability_score": 2.2,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2018-20346"
+                }
+            ],
+            "package": "sqlite-libs-3.21.0-r1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "sqlite-libs",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "3.21.0-r1",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20346",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20346"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "3.25.3-r1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-8457"
+                }
+            ],
+            "package": "sqlite-libs-3.21.0-r1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "sqlite-libs",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "3.21.0-r1",
+            "severity": "High",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8457",
+            "vendor_data": [],
+            "vuln": "CVE-2019-8457"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.9.12-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 8.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 2.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-11782"
+                }
+            ],
+            "package": "subversion-1.9.7-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "subversion",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.9.7-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11782",
+            "vendor_data": [],
+            "vuln": "CVE-2018-11782"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.9.12-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-0203"
+                }
+            ],
+            "package": "subversion-1.9.7-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "subversion",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.9.7-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0203",
+            "vendor_data": [],
+            "vuln": "CVE-2019-0203"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.9.12-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.0,
+                        "exploitability_score": 8.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 2.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-11782"
+                }
+            ],
+            "package": "subversion-libs-1.9.7-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "subversion-libs",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.9.7-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11782",
+            "vendor_data": [],
+            "vuln": "CVE-2018-11782"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.9.12-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-0203"
+                }
+            ],
+            "package": "subversion-libs-1.9.7-r0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "subversion-libs",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.9.7-r0",
+            "severity": "Medium",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0203",
+            "vendor_data": [],
+            "vuln": "CVE-2019-0203"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "alpine:3.7",
+            "fix": "1.31-r0",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 1.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.7,
+                        "exploitability_score": 1.0,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-20482"
+                }
+            ],
+            "package": "tar-1.29-r1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "tar",
+            "package_path": "pkgdb",
+            "package_type": "APKG",
+            "package_version": "1.29-r1",
+            "severity": "Low",
+            "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20482",
+            "vendor_data": [],
+            "vuln": "CVE-2018-20482"
+        }
+    ],
+    "vulnerability_type": "all"
+}

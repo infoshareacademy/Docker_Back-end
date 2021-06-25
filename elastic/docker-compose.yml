@@ -1,0 +1,14 @@
+version: '3'
+services:
+  elasticsearch:
+    image: elasticsearch:7.12.0
+    environment:
+      - discovery.type=single-node
+      - http.port=9200
+      - http.cors.enabled=true
+      - http.cors.allow-origin=http://51.195.119.32:8080
+      - http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization
+      - http.cors.allow-credentials=true
+    ports:
+      - 9200:9200
+

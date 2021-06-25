@@ -1,0 +1,21 @@
+x-php: &php
+  build:
+    dockerfile: ./docker/php/Dockerfile
+    context: .
+
+version: '3'
+services:
+  nginx:
+    build:
+      dockerfile: ./docker/nginx/Dockerfile
+      context: .
+    ports:
+      - 8080:80
+    depends_on:
+      - php1
+      - php2
+  php1:
+    <<: *php
+  php2:
+    <<: *php
+
